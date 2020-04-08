@@ -54,4 +54,4 @@ let Lyndon = presidents[10];
  //3
 let call =  presidents.splice(9);
 console.log(call);
-//LOL IT ALL WORKS JUST NOT EFFICIENT 
+//LOL THE SPLICING ALL WORKS JUST NOT EFFICIENT 
