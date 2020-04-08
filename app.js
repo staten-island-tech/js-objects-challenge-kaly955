@@ -34,11 +34,15 @@ const presidents = [
   let remove = rep.splice(1,1);
   let removeTwo = rep.splice(2,1);
  console.log(rep);
+
+ const republic = presidents.filter(presidents => presidents.party === "R"&& presidents.terms ===1);
+ console.log(republic);
 //4 
 let power = presidents.filter(presidents => presidents.party === "D");
 let pop = power.splice(2,2);
 console.log(power);
-
+let democrat = presidents.filter(presidents => presidents.party === "D" && presidents.terms === 2);
+console.log(democrat);
 // //BONUS
 let Lyndon = presidents[10];
 
@@ -50,3 +54,4 @@ let Lyndon = presidents[10];
  //3
 let call =  presidents.splice(9);
 console.log(call);
+//LOL IT ALL WORKS JUST NOT EFFICIENT 
